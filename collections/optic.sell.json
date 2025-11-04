@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "6909e9c0fc186cb671c1bd66"
+  },
+  "client_id": {
+    "$oid": "6909d641fc186cb671c1bd56"
+  },
+  "employee_id": {
+    "$oid": "6909e83dfc186cb671c1bd5f"
+  },
+  "glass_id": {
+    "$oid": "6909d26bfc186cb671c1bd4c"
+  },
+  "sell_dateTime": "2025-11-04T12:30:00"
+}]

@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "6909d26bfc186cb671c1bd4c"
+  },
+  "brand": "gunnar",
+  "glass_grade": {
+    "right_glass": 0,
+    "left_glass": 0.2
+  },
+  "mount_type": "metallic",
+  "mount_color": "silver",
+  "glass_color": {
+    "right_glass": "amber",
+    "left_glass": "amber"
+  },
+  "price": 67.79,
+  "provider_id": {
+    "$oid": "6909ccfe92c66fb1e225baa2"
+  }
+}]
