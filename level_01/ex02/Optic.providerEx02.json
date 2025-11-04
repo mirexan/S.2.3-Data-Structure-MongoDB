@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "6909ccfe92c66fb1e225baa2"
+  },
+  "name": "CoolGlasses S.A",
+  "NIF": "A12345678",
+  "fax": "93-555-0001",
+  "phone_number": "654789123",
+  "address": {
+    "street": "Travessia de Sant Antoni",
+    "number": "14",
+    "flat": "local",
+    "door": "local",
+    "city": "Barcelona",
+    "cp": "08012",
+    "country": "Spain"
+  }
+}]

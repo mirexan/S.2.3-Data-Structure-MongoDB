@@ -1,0 +1,44 @@
+[{
+  "_id": {
+    "$oid": "6909d26bfc186cb671c1bd4c"
+  },
+  "brand": "gunnar",
+  "frame_type": "metallic",
+  "provider": {
+    "name": "CoolGlasses S.A",
+    "_id": {
+      "$oid": "6909ccfe92c66fb1e225baa2"
+    }
+  },
+  "price": 67.79,
+  "Bought By": [
+    {
+      "name": "Client 1",
+      "_id": {
+        "$oid": "6909d641fc186cb671c1bd56"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "690a33d71ff0267d91e41615"
+  },
+  "brand": "Christian Roth",
+  "frame_type": "paste",
+  "provider": {
+    "name": "CoolGlasses S.A",
+    "_id": {
+      "$oid": "6909ccfe92c66fb1e225baa2"
+    }
+  },
+  "price": 350,
+  "Bought By": [
+    {
+      "name": "Client 1",
+      "_id": {
+        "$oid": "6909d641fc186cb671c1bd56"
+      }
+    }
+  ]
+}]
