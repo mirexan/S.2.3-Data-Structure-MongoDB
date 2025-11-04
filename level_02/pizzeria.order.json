@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "690a59c41ff0267d91e41630"
+  },
+  "order_dateTime": "2025-11-04T13:47:32",
+  "type": "delivery",
+  "total_price": 31,
+  "store_id": {
+    "$oid": "690a54b81ff0267d91e4161f"
+  },
+  "client": {
+    "client_id": {
+      "$oid": "690a565b1ff0267d91e41626"
+    },
+    "name": "Manuela"
+  },
+  "products_ordered": [
+    {
+      "product_id": {
+        "$oid": "690a585f1ff0267d91e4162c"
+      },
+      "name": "Pizza Margherita",
+      "quantity": 1,
+      "price_per_unit": 9
+    },
+    {
+      "product_id": {
+        "$oid": "690a59c41ff0267d91e41631"
+      },
+      "name": "Bloody Burger",
+      "quantity": 2,
+      "price_per_unit": 11
+    }
+  ],
+  "delivery_info": {
+    "delivery_address": {
+      "street": "Travessia de Sant Antoni",
+      "number": "9",
+      "floor": "3 1",
+      "note": "We don't have elevator!"
+    },
+    "delivery_employee_id": {
+      "$oid": "690a56301ff0267d91e41624"
+    },
+    "delivery_status": "Delivered",
+    "delivery_time": "2025-11-04T14:07:12"
+  },
+  "payment_status": "Paid"
+}]

@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "690a55821ff0267d91e41623"
+  },
+  "name": "Agustín",
+  "surname": "Capdevila",
+  "nif": "01234567Z",
+  "phone": "654378900",
+  "role": "cook",
+  "store_id": {
+    "$oid": "690a54b81ff0267d91e4161f"
+  }
+},
+{
+  "_id": {
+    "$oid": "690a56301ff0267d91e41624"
+  },
+  "name": "Santiaga",
+  "surname": "Soto",
+  "nif": "11234567Y",
+  "phone": "654378911",
+  "role": "delivery",
+  "store_id": {
+    "$oid": "690a54b81ff0267d91e4161f"
+  }
+}]

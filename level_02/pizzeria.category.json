@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "690a56ef1ff0267d91e41628"
+  },
+  "name": "Classic Pizza",
+  "description": "4ever classic flavours"
+},
+{
+  "_id": {
+    "$oid": "690a58001ff0267d91e41629"
+  },
+  "name": "Gourmet Pizza",
+  "description": "Designed by an authentic gastronomer \nwho has work in several Michelin star\nrestaurants."
+},
+{
+  "_id": {
+    "$oid": "690a584a1ff0267d91e4162a"
+  },
+  "name": "Seasonal Pizza",
+  "description": "Made with seasonal ingredients!"
+}]

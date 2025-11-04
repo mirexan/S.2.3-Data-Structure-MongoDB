@@ -1,0 +1,11 @@
+[{
+  "_id": {
+    "$oid": "690a54b81ff0267d91e4161f"
+  },
+  "address": {
+    "street": "Travessia de Sant Antoni, 1",
+    "cp": "08012",
+    "locality": "Barcelona",
+    "province": "Barcelona"
+  }
+}]

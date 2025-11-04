@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "690a585f1ff0267d91e4162c"
+  },
+  "type": "pizza",
+  "name": "Pizza Margherita",
+  "description": "Tomato, mozzarella & basil",
+  "image": "/img/margherita.png",
+  "price": 9,
+  "category_id": {
+    "$oid": "690a56ef1ff0267d91e41628"
+  }
+},
+{
+  "_id": {
+    "$oid": "690a59ac1ff0267d91e4162e"
+  },
+  "type": "burger",
+  "name": "Bloody Burger",
+  "description": "Briox bread,Tomato 'cor de bou', black angus 200g veal meat, confited onion & beetroot",
+  "image": "/img/bloody-burger.png",
+  "price": 12,
+  "category_id": null
+}]
