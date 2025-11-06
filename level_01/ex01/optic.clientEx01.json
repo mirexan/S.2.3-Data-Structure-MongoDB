@@ -40,20 +40,28 @@
 },
 {
   "_id": {
-    "$oid": "6909e772fc186cb671c1bd5d"
+    "$oid": "690c72effd0295e4a576608b"
   },
-  "name": "Manuelita",
-  "address": {
-    "street": "Travessia de Sant Antoni,8",
-    "city": "country",
-    "cp": "08012",
-    "country": "Spain"
+  "Name": "Manuelita",
+  "Data": {
+    "Address": "Travessia de Sant Antoni,10",
+    "Telephone": "676438322",
+    "Email": "Manueli@hotmail.com",
+    "Register_date": "2024-11-05"
   },
-  "phone": "678938672",
-  "mail": "Manuela1948@hotmail.com",
-  "register_date": "2024-11-04",
-  "recomended_client": {
-    "$oid": "6909d641fc186cb671c1bd56"
-  },
-  "sales_history": null
+  "Last Shoppings": [
+    {
+      "glass_brand": "Christian Roth",
+      "glass_grade": {
+        "right_glass": 0,
+        "left_glass": 0.2
+      },
+      "glass_color": {
+        "right_glass": "Blue_Pink Shimmer",
+        "left_glass": "Blue_Pink Shimmer"
+      },
+      "frame_type": "paste",
+      "product_price": 350
+    }
+  ]
 }]

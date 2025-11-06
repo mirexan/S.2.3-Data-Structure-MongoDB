@@ -9,6 +9,21 @@ For each level, the following must be submitted:
 * **Diagram:** A data model diagram (NoSQL-style ERD) created with tools like **Draw.io** or **Moon Modeler**.
 * **Data Files:** `js` or `json` files containing the collection definitions and sample data to verify the design and relationships.
 
+### 💡 A Note on the Design Approach (Denormalization)
+
+The final JSON data structures provided for these exercises (especially for the Optics and Pizzeria) have been designed following a **denormalized** model.
+
+This was a specific design choice to directly address the requirements implied by the **graphical interface (GUI) mockups** provided in the prompts.
+
+Instead of using a normalized (SQL-like) approach with multiple collections and relational lookups (references), this design **embeds** all necessary information into a single document.
+
+* **For the Optics Shop:** The UI mockups for the client view and the glasses view required embedding purchase data directly to avoid complex queries.
+* **For the Pizzeria:** The "Confirmed Order" UI required creating a **snapshot** of all order data (client info, product details, and delivery address) within the `order` document itself.
+
+This "refactored" approach ensures that all data needed to render a specific view can be fetched with a single, efficient query, fulfilling the non-relational goal of the exercise.
+
+
+
 ---
 
 ## Level 1
@@ -78,6 +93,14 @@ Keep the following instructions in mind for modeling the project's database:
 * For home delivery orders, it is necessary to save which **delivery driver** is handling the delivery and the date/time of the delivery.
 
 ![img.png](subject_images/img3.png)
+
+### 🍕 "resources" Folder
+
+Please note that for the Pizzeria exercise, a `resources` folder is included in the project directory.
+
+This folder contains initial setup data, diagrams, or preliminary normalized models used during the initial analysis. **This data is for context only and is not the final answer to the exercise.**
+
+The official solution is the final, denormalized JSON document designed to power the "Confirmed Order" interface.
 
 ---
 
